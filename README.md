@@ -1,4 +1,4 @@
-## About TP Log2
+## About TP Log
 
 Ceci est un projet laravel concu dans le cadre d'un text d'embauche pour un stage 
 ## Installation et Utilisation de TP Log2
