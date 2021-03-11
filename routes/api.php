@@ -16,4 +16,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+
+    
+// add any routes
+});
+Route::get('/projets', function(){
+    $projets =  \App\Projet::all();
+    return response()->json($projets);
+});
+Route::get('/logs',  function(){
+    $logs =  \App\Log::all();
+    return response()->json($logs);
 });
